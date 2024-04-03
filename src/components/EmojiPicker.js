@@ -15,6 +15,7 @@ export default function EmojiPicker({ isVisible, children, onClose }) {
       </View>
     </Modal>
   );
+}
   const styles = StyleSheet.create({
     modalContent: {
       height: '25%',
@@ -57,4 +58,4 @@ export default function EmojiPicker({ isVisible, children, onClose }) {
 
 
 
-}
+
